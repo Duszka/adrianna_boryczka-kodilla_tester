@@ -23,6 +23,7 @@ public class Application {
 
     public static void main(String[] args) {
         Application adam = new Application("Adam", 40.5,178);
+        adam.checkData();
         System.out.println("Name: " + adam.name);
         System.out.println("Age: " + adam.age);
         System.out.println("Height: " + adam.height);
