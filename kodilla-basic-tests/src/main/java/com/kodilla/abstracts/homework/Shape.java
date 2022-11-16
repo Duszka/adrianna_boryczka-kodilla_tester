@@ -1,2 +1,7 @@
-package com.kodilla.abstracts.homework;public class Shape {
+package com.kodilla.abstracts.homework;
+
+public abstract class Shape {
+
+    public abstract double calcSurfaceArea();
+    public abstract double calcPerimeter();
 }
