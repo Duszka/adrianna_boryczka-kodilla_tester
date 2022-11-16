@@ -3,16 +3,13 @@ import java.util.Random;
 public class RandomNumbers {
 
     public static void main(String[] args) {
-        randomNumbers randomNumbers = new randomNumbers();
+        RandomNumbers randomNumbers = new RandomNumbers();
         System.out.println(randomNumbers.getCountOfRandomNumber());
         System.out.println("Min value: " + randomNumbers.getMin());
         System.out.println("Max value: " + randomNumbers.getMax());
     }
-
-    static class randomNumbers {
         int min = 30;
         int max = 0;
-        int sum = 0;
 
         public int getCountOfRandomNumber() {
             Random random = new Random();
@@ -37,5 +34,4 @@ public class RandomNumbers {
         public int getMax() {
             return max;
         }
-    }
 }

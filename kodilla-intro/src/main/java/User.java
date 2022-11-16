@@ -1,16 +1,16 @@
 public class User {
-    private String name;
-    private int age;
+    public String name;
+    public int age;
 
     public User(String name, int age) {
         this.name = name;
         this.age = age;
     }
-    private String takeName() {
+    private String getName() {
         return name;
     }
 
-    private int takeAge() {
+    private int getAge() {
         return age;
     }
 
@@ -27,15 +27,15 @@ public class User {
 
         int result = 0;
         for (int i = 0; i < users.length; i++) {
-            result= result + users[i].takeAge();
+            result= result + users[i].getAge();
         }
 
         int average = result/ users.length;
         System.out.println(average);
 
         for (int i = 0; i < users.length; i++) {
-            if (users[i].takeAge() < average) {
-                System.out.println(users[i].takeName());
+            if (users[i].getAge() < average) {
+                System.out.println(users[i].getName());
             }
         }
     }

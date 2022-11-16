@@ -12,16 +12,17 @@ public class Person {
     }
 
     public static void main(String[] args) {
-        Job teacher = new Teacher();
+        Job Teacher = new Teacher();
         Person person1 = new Person("Olga", 29, "Teacher");
-        System.out.println(person1.name + "'s " + "responsibilities at job are: " + teacher.getResponsibilities());
+        System.out.println("The duties of the teacher include: " + Teacher.getResponsibilities());
+        System.out.println(person1.name + "'s " + "responsibilities at job are: " + Teacher.getResponsibilities());
 
-        Job doctor = new Doctor();
+        Job Doctor = new Doctor();
         Person person2 = new Person("Hanna", 33, "Doctor");
-        System.out.println(person2.name + "'s " + "responsibilities at job are: " + doctor.getResponsibilities());
+        System.out.println(person2.name + "'s " + "responsibilities at job are: " + Doctor.getResponsibilities());
 
-        Job vet = new Vet();
+        Job Vet = new Vet();
         Person person3 = new Person("Ignacy", 35, "Vet");
-        System.out.println(person3.name + "'s " + "responsibilities at job are: " + vet.getResponsibilities());
+        System.out.println(person3.name + "'s " + "responsibilities at job are: " + Vet.getResponsibilities());
     }
 }
