@@ -6,7 +6,6 @@ import com.kodilla.collections.interfaces.homework.Nissan;
 import com.kodilla.collections.interfaces.homework.Renault;
 
 import java.util.Random;
-import java.util.Scanner;
 
 public class CarsApplication {
 

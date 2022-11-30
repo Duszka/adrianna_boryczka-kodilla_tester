@@ -1,6 +1,6 @@
 package com.kodilla.abstracts.homework;
 
-public class Circle {
+public class Circle extends Shape{
 
     public double r;
     static final double PI = 3.1415927;

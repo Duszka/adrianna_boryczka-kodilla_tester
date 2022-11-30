@@ -25,9 +25,4 @@ public class Nissan implements Car {
     public void decreaseSpeed() {
         speed = speed - deceleration;
     }
-
-    @Override
-    public int getIncreaseSpeed() {
-        return acceleration;
-    }
 }
